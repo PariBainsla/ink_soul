@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #fff0f5;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #f9d5ec;
+  box-shadow: 0 4px 10px rgba(255, 182, 193, 0.3);
+  border-radius: 0 0 20px 20px;
+}
+
+.navbar h1 {
+  font-family: 'Georgia', serif;
+  color: #c44569;
+  font-size: 28px;
+}
+
+.nav-links a {
+  margin-left: 24px;
+  text-decoration: none;
+  color: #d63384;
+  font-weight: 500;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #a61c55;
+}
